@@ -1,5 +1,5 @@
 # Search examples
-# 1)
+# 1)Linear search
 # def linear_search(arr, number):
 #     for item in arr:
 #         if item == number:
@@ -10,7 +10,7 @@
 # print(result)
 
 
-# 2)
+# 2)Binary search
 # def binary_search(arr, number):
 #     left = 0
 #     right = len(arr) - 1
@@ -28,7 +28,7 @@
 # print(result) 
 
 
-# 3)
+# 3)Ternary search
 # def ternary_search(arr, number):
 #     left = 0
 #     right = len(arr) - 1
@@ -53,7 +53,7 @@
 
 
 #Sort examples
-# 1)
+# 1)Bubble sort
 # def bubble_sort(arr):
 #     for i in range(len(arr)):
 #         for j in range(0, len(arr) - i - 1):
@@ -64,7 +64,7 @@
 # print(bubble_sort(nums))
 
 
-# 2)
+# 2)Quick sort
 # def quick_sort(arr):
 #     if len(arr) <= 1:
 #         return arr
